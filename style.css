@@ -202,6 +202,41 @@
     position: relative;
     text-align: center;
   }
+  .container1 .c1 h1{
+    position: relative;
+    top: 30px;
+    font-style: normal;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+  }
+  .container1 .c1 h4{
+    max-width: 800px;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .container1 .c1 h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    position: relative;
+    bottom: 20px;
+  }
+  .container1 .c1 ul{
+    padding-bottom: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Cardo', serif;
+    position: relative;
+    bottom: 50px;
+    gap: 30px;
+  }
   .custom-shape-divider-bottom-1664106509 {
     position: absolute;
     bottom: 0;
@@ -225,40 +260,6 @@
 .custom-shape-divider-bottom-1664106509 .shape-fill {
     fill: #FFC966;
 }
-  .container1 .c1 h1{
-    position: relative;
-    top: 30px;
-    font-style: normal;
-    font-family: 'Dancing Script', cursive;
-    font-size: 50px;
-  }
-  .container1 .c1 h4{
-    font-style: italic;
-    font-size: 25px;
-    font-weight: 300;
-    text-align: center;
-    padding-left: 70px;
-    padding-right: 70px;
-  }
-  .container1 .c1 h2{
-    font-family: 'Dancing Script', cursive;
-    font-size: 40px;
-    position: relative;
-    bottom: 20px;
-  }
-  .container1 .c1 ul{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    font-style: italic;
-    font-family: 'Cardo', serif;
-    position: relative;
-    bottom: 50px;
-    gap: 30px;
-  }
-  
   .container1 .c2{
     width: 100%;
     height: max-content;/*1000*/
@@ -465,27 +466,10 @@
   align-items: center;
   transition: all .2s;
 }
-.menuFixedActive{
-  position: fixed;
-  top: 80px;
-  left: 0;
-}
-.menuFixedDezactivated{
-  position: none;
-  top: 0;
-}
-.fix{
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  z-index: 100;
-}
+
 .container1 .c4 .nav-menu ul{
   position: relative;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding:3px 20px;
   width: max-content;
   display: flex;
   justify-content: center;
@@ -505,8 +489,8 @@
 }
     /*=== Preparate ===*/
 .container1 .preparate{
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 35px;
+  padding-left: 35px;
   max-width: 550px;
   height: max-content;
   background-color: white;
@@ -522,6 +506,7 @@
   border-bottom-style: dotted;
 }
 .container1 .c4 .box{
+  max-width: 500px;
   display: flex;
   flex-direction: column;
   gap: 5px;
