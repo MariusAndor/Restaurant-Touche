@@ -1,2 +1,2 @@
-https://holso.github.io/Restaurant-Touche/
+https://mariusandor.github.io/Restaurant-Touche/
 # Restaurant-Touche
